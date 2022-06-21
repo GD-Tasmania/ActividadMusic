@@ -1,0 +1,252 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+#section1{
+    background-image: url(/imagenes/images/angel-jimenez.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#music{
+    color: #ffffff;
+    font-family: arial;
+    font-size: 172px;
+}
+
+#section2{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#main{
+    background-color: #ffffff;
+    width: 67%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#div1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#texto1{
+    width: 80%;
+    height: 80%;    
+    flex-direction: column;
+}
+
+#button1{
+margin-top: 4.5rem;
+}
+
+#titulo1{
+    margin-top: 50px;
+    background: linear-gradient(to right,#ff6637,#a705d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.titulo{
+    font-size: 55px;
+    line-height: 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+#parrafo1{
+    margin-top: 1rem;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+}
+
+.boton{
+    width: 170px;
+    height: 50px;
+    background-color: #f6355e;
+    border-radius: 25px;
+    border: none;
+    color: #ffffff;
+}
+
+#div2{
+width: 50%;
+height: 100%;
+background-image: url(/imagenes/images/matt-palmer.png);
+background-size: cover;
+}
+
+#section3{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+#div3{
+    background-color: #ffffff;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#div4{
+    width: 45%;
+    height: 100%;
+    background-image: url(/imagenes/images/wesley-tingey.png);
+    background-size: cover;
+}
+
+#div5{
+    width: 55%;
+    height: 100%;
+}
+
+#texto2{
+    width: 80%;
+    height: 80%;  
+    flex-direction: column;
+}
+
+#button2{
+    margin-top: 100px;
+}
+
+#titulo2{
+    margin-top: 120px;
+    background: linear-gradient(to right,#ff6637,#a705d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+#parrafo2{
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section4{
+    margin-top: 8rem;
+    background-image: url(/imagenes/images/john-raptis.png);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#div6{
+    width: 45%;
+    height: 55;
+    background-color: transparent;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+#titulo3{
+color: #ffffff;
+font-size: 60px;
+line-height:80px;
+}
+
+#descripcion4{
+    margin-top: 1rem;
+    font-size: 22px;
+    line-height: 35px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#button4{
+    margin-top: 3rem;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background:linear-gradient(to right,#fd4c5c,#f81647);
+}
+
+nav{
+    margin-left: 20rem;
+    background-color: transparent;
+    height: 78%;
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 25%;
+}
+
+#section5{
+    border-top: 1.5px #ffffff solid;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-left: 20rem;
+    height: 22%;
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p1{
+    display: flex;
+    justify-content: start;
+    margin-right: 33rem;
+}
+
+#p2{
+    display: flex;
+    justify-content: end;
+    margin-left: 10.5rem;
+}
+
+.p{
+    width: 100%;
+    text-align: left;
+}
